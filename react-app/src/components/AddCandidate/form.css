@@ -1,0 +1,96 @@
+.form_div{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;    */
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #CDF0EA;
+}
+.form_div form{
+    width: 50%;
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #251D3A;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.form_div form input{
+    width: 50%;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    color: #333;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.form_div form input[type='file']{
+    visibility: none;
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    cursor: pointer;
+  }
+.myfile{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid pink;
+}
+.file-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .file-input label {
+    width: 300px;
+    padding: 15px 20px;
+    border-radius: 15pxpx;
+    background: linear-gradient(40deg, #ff6ec4, #7873f5);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+  }
+
+.form_div button{
+    width: 50%;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    background: #CDF0EA;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.form-img__img-preview {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border: 2px rgb(80, 199, 235) solid;
+}
